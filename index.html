@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <!-- Style -->
     <link rel="stylesheet" href="style.css">
 
@@ -21,41 +23,88 @@
         </div>
     </header>
     <!-- Jumbo -->
-    <section id="Jumbotron" class="bg-aqua">
+    <section id="Jumbotron" class=" bg-aqua text-center mb-4 p-4">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12"></div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <img src="img/avatar.svg" alt="avatar" class="img-fluid">
+                    <h1> START BOOTSTRAP</h1>
+                    <div class="fs-3 mb-3">
+                        <span class="d-inline-block line"></span>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="d-inline-block line"></span>
+                    </div>
+                    <p class="fs-3"> GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR </p>
+                </div>
             </div>
         </div>
     </section>
     <!-- MAIN -->
     <main>
-        <section id="portfolio">
+        <section id="portfolio" class="text-center mb-4 p-4">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12"></div>
+                    <div class="col-12">
+                        <h2 class="m-2"> PORTFOLIO </h2>
+                    <div class="fs-3 mb-3">
+                        <span class="d-inline-block line"></span>
+                        <i class="bi bi-star-fill"></i>
+                        <span class="d-inline-block line"></span>
+                    </div>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4"></div>
-                    <div class="col-12 col-md-6 col-lg-4"></div>
-                    <div class="col-12 col-md-6 col-lg-4"></div>
-                    <div class="col-12 col-md-6 col-lg-4"></div>
-                    <div class="col-12 col-md-6 col-lg-4"></div>
-                    <div class="col-12 col-md-6 col-lg-4"></div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3"> 
+                        <div class="card">
+                            <img src="img/cabin.png" class="rounded" alt="cabin">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <img src="img/cake.png" class="rounded" alt="cake">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <img src="img/circus.png" class="rounded" alt="circus">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <img src="img/game.png" class="rounded" alt="game">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <img src="img/safe.png" class="rounded" alt="safe">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="card">
+                            <img src="img/submarine.png" class="rounded" alt="submarine">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="about" class="bg-aqua">
+        <section id="about" class="bg-aqua text-center mb-4 p-4">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12"></div>
-                    <div class="col-10 col-md-5"></div>
-                    <div class="col-10 col-md-5"></div>
-                    <div class="col-12"></div>
+                    <div class="col-12">
+                        <h2 class="m-2 fw-bolder"> ABOUT </h2>
+                        <div class="fs-3 mb-3">
+                            <span class="d-inline-block line"></span>
+                            <i class="bi bi-star-fill"></i>
+                            <span class="d-inline-block line"></span>
+                        </div>
+                    </div>
+                    <div class="col-10 col-md-5 text-start fw-semibold"> <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, voluptatibus dolores iure modi corporis eaque facilis. Consecteturam necessitatibus ea commodi non minima at doloremque iusto ex fuga? Provident magnam error cupiditate. </p> </div>
+                    <div class="col-10 col-md-5 text-start fw-semibold"> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptatum, quasi voluptatibus temporibus beatae dicta nulla quae perspiciatis iusto, voluptas quis odit nemo ipsum aperiam adipisci pariatur id ex inventore. </p> </div>
+                    <div class="col-12"> <a href="#" class="btn fw-semibold m-3"> <i class="bi bi-download"></i> Download </a></div>
                 </div>
             </div>
         </section>
-        <section id="contact">
+        <section id="contact" class="mb-4 p-4">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12"></div>
@@ -63,22 +112,37 @@
                 </div>
             </div>
         </section>
-        <section class="location">
+        <section id="location" class="text-center p-4">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-4"></div>
-                    <div class="col-12 col-md-4"></div>
-                    <div class="col-12 col-md-4"></div>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-md-4 mb-2 p-2"> 
+                        <h6> LOCATION </h6>
+                        <P>2215 john Daniel Drive Clark, MO 54243</P>
+                    </div>
+                    <div class="col-12 col-md-4 mb-2 p-2">
+                        <h6>AROUND THE WEB</h6>
+                        <i class="bi bi-facebook btn"></i>
+                        <i class="bi bi-google btn"></i>
+                        <i class="bi bi-twitter btn"></i>
+                        <i class="bi bi-linkedin btn"></i>
+                    </div>
+                    <div class="col-12 col-md-4 mb-2 p-2">
+                        <h6>ABOUT FREELANCER</h6>
+                        <p class="fw-semibold"> Lorem ipsum dolor, Neque quis excepturi earum fuga dolore temporibus adipisci quas laborum. <a href="#"> Start Bootstrap</a>. </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12"></div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 p-3">
+                    <p>Copyright. You Website 2019.</p>
                 </div>
             </div>
-        </footer>
-    </main>
+        </div>
+    </footer>
 </body>
 </html>

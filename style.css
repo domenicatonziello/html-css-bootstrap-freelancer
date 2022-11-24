@@ -1,34 +1,63 @@
 /* GENERICS */
-
 header{
     height: 100px;
-    background-color: blue;
-}
-
-section{
-    min-height: 500px;
-
-    border: 2px dashed purple;
+    background-color: rgb(44,62,80);
 }
 
 footer{
-    height: 300px;
-    background-color: dodgerblue;
+    min-height: 50px;
+    background-color: rgb(44,62,80);
+    color: white;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 /* UTILITY */
 .row{
-    border: 2px dashed red;
-    height: 100%;
+    min-height: 100%;
 }
 
 [class^="col"]{
-    background-color:  yellow;
-    border: 1px solid black;
-    height: 80px ;
+    min-height: 40px ;
 }
 
 .bg-aqua{
-    background-color: aquamarine;
+    background-color: rgb(26,188,156);
+    color: white;
+}
+/* Jumbo */
+#Jumbotron img{
+    width: 250px;
 }
 
+.line{
+    height: 5px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+/* portfolio */
+#portfolio .line{
+    background-color:rgb(33,37,41) ;
+}
+#location{
+    background-color: rgb(58,84,109);
+    color: white;
+}
+/* ABOUT US */
+.btn{
+    border: 1px solid white;
+    color: white;
+}
+/* LOCATION */
+#location i{
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+#location a{
+    color: rgb(26,188,156);
+}
