@@ -1,0 +1,27 @@
+/* GENERICS */
+
+header{
+    height: 100px;
+    background-color: blue;
+}
+
+section{
+    min-height: 500px;
+}
+
+/* UTILITY */
+.row{
+    border: 2px dashed red;
+    height: 100%;
+}
+
+[class^="col-"]{
+    background-color:  yellow;
+    border: 1px solid black;
+    height: 50px;
+}
+
+.bg-aqua{
+    background-color: aquamarine;
+}
+
